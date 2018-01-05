@@ -8,7 +8,17 @@ body{
   align-items: center;
   font-family: 'Open Sans', sans-serif;
 }
-
+button{
+  height: 100%;
+  width: 100%;
+  background-color: inherit;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 10px;
+}
 .all{
   display: flex;
   justify-content: center;
@@ -32,14 +42,6 @@ body{
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(6, 1fr) ;
   grid-gap:6px;
-  /*grid-template-areas:
-  "d d d d"
-  ". . . a"
-  "n n n o"
-  "n n n o"
-  "n n n o"
-  "n n . o"
-  ". e e .";*/
 }
 
 .display{
@@ -53,8 +55,7 @@ body{
   justify-content: flex-end;
   align-items: center;
   overflow: scroll;
-  /*grid-area: d;*/
-  /*height: 100px;*/
+
 }
 .ac{
   background-color: #99b28e;
