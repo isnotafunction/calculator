@@ -88,8 +88,11 @@ pi.addEventListener("click", function(){
   display.textContent = digit;
   console.log(digit)
 })
-
-
+dot.addEventListener("click", function(){
+  digit+='.'
+  display.textContent = digit;
+  console.log(digit)
+})
 plus.addEventListener("click", function(){
 arr.push(digit);
 arr.push("+");
