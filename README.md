@@ -1,4 +1,4 @@
-##JavaScript calculator
+## [JavaScript calculator](https://isnotafunction.github.io/calculator/)
 
 This project is a part of pre-course material for Founders and Coders.
 
