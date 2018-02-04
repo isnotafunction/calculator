@@ -54,7 +54,7 @@ button{
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  overflow: hidden;
+  overflow: auto;
   }
 
   .display::-webkit-scrollbar {
