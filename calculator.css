@@ -24,7 +24,7 @@ button{
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.5rem;
   color: #fff;
   cursor: pointer;
   border-radius: 10px;
@@ -47,7 +47,7 @@ button{
 .display{
   border: 1px #396372 solid;
   background-color: #396372;
-  grid-column: 1/4;
+  grid-column: 1/-1;
   border-radius: 5px;
   color: #fff;
   font-size: 2em;
@@ -63,10 +63,9 @@ button{
 
 .ac{
   background-color: #99b28e;
-  grid-column: 4/-1;
+  grid-column: 1/2;
+  grid-row:6/-1;
   text-transform: uppercase;
-  font-size: 1em;
-  margin: 10px;
   box-shadow: 0 3px #62725b;
 }
 
@@ -84,8 +83,7 @@ button{
   background-color: #99b28e;
   font-size: 3em;
   box-shadow: 0 3px #62725b;
-  margin: 10px;
-  grid-column: 1/5;
+  grid-column: 2/5;
 }
 .red{
   border: 2px solid #EA561C;
