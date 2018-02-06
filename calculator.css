@@ -67,26 +67,22 @@ button{
   text-transform: uppercase;
   font-size: 1em;
   margin: 10px;
-  position: relative;
   box-shadow: 0 3px #62725b;
 }
 
 .num{
   background-color: #ea7e54;
-  position: relative;
   box-shadow: 0 3px #af5728;
 }
 
 .op{
   background-color: #846372;
-  position: relative;
   box-shadow: 0 3px #4c3841;
 }
 
 .equals{
   background-color: #99b28e;
   font-size: 3em;
-  position: relative;
   box-shadow: 0 3px #62725b;
   margin: 10px;
   grid-column: 1/5;
